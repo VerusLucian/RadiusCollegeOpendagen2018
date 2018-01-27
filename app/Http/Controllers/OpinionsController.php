@@ -18,6 +18,7 @@ class OpinionsController extends Controller
 
     public function store(Request $request)
     {
+        dd($request);
         $request->validate([
             'description'   => 'required|string|max:255',
             'name'          => 'required|string',

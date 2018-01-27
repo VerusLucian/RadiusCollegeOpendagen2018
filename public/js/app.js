@@ -776,6 +776,13 @@ __webpack_require__(9);
 //     el: '#app'
 // });
 
+
+$('.rating input').change(function () {
+  var $radio = $(this);
+  $('.rating .selected').removeClass('selected');
+  $radio.closest('label').addClass('selected');
+});
+
 /***/ }),
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {

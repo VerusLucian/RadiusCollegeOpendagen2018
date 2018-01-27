@@ -20,3 +20,10 @@ require('./bootstrap');
 // const app = new Vue({
 //     el: '#app'
 // });
+
+
+$('.rating input').change(function () {
+    var $radio = $(this);
+    $('.rating .selected').removeClass('selected');
+    $radio.closest('label').addClass('selected');
+});
