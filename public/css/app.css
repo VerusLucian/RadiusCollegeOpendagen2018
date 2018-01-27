@@ -8367,7 +8367,7 @@ button.close {
 
 .rating > label:before {
   position: relative;
-  font: 24px/1 FontAwesome;
+  font: 48px/1 FontAwesome;
   display: block;
   content: "\F005";
   color: #ccc;
@@ -8384,5 +8384,17 @@ button.close {
   background: -webkit-linear-gradient(-45deg, #fcb551 0%, #d69a45 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("http://localhost/RadiusCollegeOpendagen2018/public/img/background_radius_college.jpg");
 }
 

@@ -26,7 +26,7 @@
 
 .rating > label:before {
   position: relative;
-  font: 24px/1 FontAwesome;
+  font: 48px/1 FontAwesome;
   display: block;
   content: "\f005";
   color: #ccc;
@@ -45,3 +45,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+textarea{
+  resize: none;
+}
+
+.submit{
+  margin-top: 20px;
+}
+
+body{
+  background-image: url('http://localhost/RadiusCollegeOpendagen2018/public/img/background_radius_college.jpg');
+}
