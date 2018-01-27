@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'OpinionsController@index');
+Route::post('/submit', 'OpinionsController@store');
